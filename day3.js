@@ -16,7 +16,7 @@ Create and array with the first 5 positive numbers
 /* EXERCISE 2
 Create an object containing your name, surname, email address and age.
 */
-
+//hello
 const myObject = {
     name: "Akbar",
     surname: "Isakov",
