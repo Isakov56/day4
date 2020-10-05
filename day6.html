@@ -1,0 +1,124 @@
+<html>
+<!--
+        You have been assigned to the creation of a Smartphone Shop Website.
+        The shop is just a showcase of the products of the shop with some extra informations.
+        No shopping cart / checkout features are required.
+        EX1.:
+        Add H1 title with the name of the shop
+        EX2.: 
+        Add a TABLE with the top 5 products of the shop
+        EX3.: 
+        Each product should have one image, title, description and price
+        EX4.:
+        Add Map to the shop 
+        EX5.: 
+        Add the links to Amazon products for each item in the table
+        EX6.:
+        Add a footer with the address and the name of the shop
+        EX7.: 
+        Add a message board where the user can type a message in it (only client side)
+        // EXTRA 
+        EX8.: 
+        Write a function to change the heading text
+        EX9.:
+        Write a function to change the page background color
+        EX10.:
+        Write a function to change the footer address with a fake one
+    -->
+
+<head>
+    <style>
+        .size {
+            width: 100;
+        }
+        #map {
+            margin: 10px;
+            margin-left: 40px;
+        }
+        #text {
+            height: 100px;
+            margin-left: 40px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                eAmazon Express
+            </h1>
+        </div>
+    </header>
+    <section class="main">
+        <h2>Top 5 products</h2>
+        <div id="products">
+            <table>
+                <tr>
+                    <th>Title</th>
+                    <th>Image</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td> <a href="">Apple iPhone 11 Pro</a> </td>
+                    <td><img class="size" src="images/MX0H2.jpg" alt=""></td>
+                    <td>Another year, another new flagship phone from Apple, 
+                        <br> this time introducing a new triple camera system, 
+                        <br> night mode and improved battery life.</td>
+                    <td>891.90 €</td>
+                </tr>
+                <tr>
+                    <td> <a href="">Samsung Galaxy S20</a> </td>
+                    <td><img class="size" src="images/samsung-galaxy-s20-ultra-winfuture-2.jpg" alt=""></td>
+                    <td>Safe, reliable and resistant, 
+                        <br> Galaxy S20, S20 + and S20 Ultra are designed 
+                         to always <br> keep the pace of your work with maximum performance</td>
+                    <td>1,007.90 €</td>
+                </tr>
+                <tr>
+                    <td> <a href="">Huawei P40 Pro</a> </td>
+                    <td><img class="size" src="images/P40-Pro.jpg" alt=""></td>
+                    <td>Available in 3 colors inspired 
+                        <br> by the purity of nature</td>
+                    <td>€ 571.00</td>
+                </tr>
+                <tr>
+                    <td> <a href="">Huawei P40 Pro</a> </td>
+                    <td><img class="size" src="images/xiaomi-mi-note-10-dual-sim-en-verde-de-128gb-y-6gb-ram-detras.jpg" alt=""></td>
+                    <td>Good level Android smartphone, strongly devoted <br> to imaging, 
+                        able to satisfy even the most demanding user</td>
+                    <td>359 €</td>
+                </tr>
+                <tr>
+                    <td><a href="">LG K41S</a></td>
+                    <td><img class="size" src="images/LG-K41S-500x500.jpg" alt=""></td>
+                    <td>Dual SIM smartphone launched in 2020 
+                        <br> based on the Android 10 operating system</td>
+                    <td>159,00 €</td>
+
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47557.12722284154!2d12.58544817910156!3d41.8429289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325880ff5b9492d%3A0x3ba77d8955a80d0e!2sMedia%20World!5e0!3m2!1sen!2sit!4v1601912429029!5m2!1sen!2sit" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </section>
+    <section>
+        <div class="input-data">
+            <input id="text" type="text"><label for="">Your massage</label>
+        </div>
+    </section>
+    <footer>
+        
+        <h5>
+            Via Mary Pandolfi de Rinaldis, 30, 00173 Roma RM 
+            <br> eAmazon Express
+        </h5>
+    </footer>
+</body>
+
+</html>
